@@ -28,11 +28,13 @@ function main() {
     .split(" ")
     .map((arrTemp) => parseInt(arrTemp, 10));
 
+  //First solution
   // const arrReversed = arr.reverse();
   // const convertedToString = String(arrReversed);
   // const stringFinal = convertedToString.replaceAll(",", " ");
   // console.log(stringFinal);
 
+  //Second solution
   const arrReversed = arr.reverse();
   let newArray = [];
   for (let i = 0; i < arrReversed.length; ++i) {
